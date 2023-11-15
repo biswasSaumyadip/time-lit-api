@@ -1,0 +1,21 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "no-unused-declaration": [true, { "declarations": false, "imports": true }],
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "ordered-imports": [false],
+    "interface-name": [false],
+    "variable-name": [false],
+    "member-access": [false],
+    "array-type": [false],
+    "no-empty-interface": [false],
+    "member-ordering": [false],
+    "callable-types": [false],
+    "object-literal-sort-keys": [false],
+    "no-this-assignment": [false],
+    "no-conditional-assignment": [false],
+    "max-classes-per-file": [false, 1000],
+    "jsdoc-format": [false],
+    "ban-comma-operator": [false]
+  }
+}
